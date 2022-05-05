@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Jogo da Velha</title>
+        <style type="text/css">
+            table { /* a tabela vem sem as bordas no site, então colocamos bordas nela*/
+                border: 1px solid black;
+            }
+            table td { /* colocando borda em cada célula da tabela */
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>Salário</h3>
+        <table>
+            <tr>
+                <td rowspan="2">José</td> <!--aqui estou dizendo que quero mesclar as duas próximas linhas para serem da coluna José-->
+                <td>R$ 3.000,00</td>
+            </tr>
+            <tr> <!-- caso eu queira mesclar coluna, ai uso o colspan=""-->
+                <td>R$ 1.200,00</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>R$ 2.500,00</td>
+            </tr>
+        </table>
+
+      
+    </body>
+</html>

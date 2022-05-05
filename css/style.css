@@ -1,0 +1,60 @@
+body { /* mexendo nas configuraçõe css do body*/
+    font-family: sans-serif;
+}
+
+table, .configurador { /* a tabela vem sem as bordas no site, então colocamos bordas nela*/
+    width: 500px;
+    margin: auto; /*cebtraliza nossa tabela*/
+    border: 1px solid black;
+    border-collapse: collapse; /* junta as bordas da tabela em uma. O que deixa tabela padrão*/
+}
+
+table td { /* colocando borda em cada célula da tabela */
+    border: 1px solid black;
+    height: 166px; /* 500/3=166*/
+    width: 166px;
+    text-align: center;
+    font-size: 96px;
+}
+.configurador {
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.configurador input {
+    padding: 10px;
+}
+
+.configurador span {
+    background-color: lightgray;
+    padding: 9px 15px 11.5px 15px;
+    vertical-align: baseline;
+    border: 1px solid gray;
+}
+
+.configurador button {
+    padding: 7px 15px;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+.msg {
+    width: 480px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    height: 40px;
+    color: gray;
+}
+
+#tempo {
+    text-align: center;
+    border: 1px solid lightgray;
+    width: 98%;
+    margin: auto;
+    margin-top: 4%;
+    padding-top: 0.5%;
+   
+}
